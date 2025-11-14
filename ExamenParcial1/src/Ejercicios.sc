@@ -19,7 +19,10 @@ def transformarCalificaciones(calificaciones: List[Double], seleccion: Int): Lis
     case 2 => calificaciones.map(bonificacion)
     case 3 => calificaciones.map(calificacionalta)
   }
-transformarCalificaciones(List(10,9.8,9.5,6.7,10),3)
+
+transformarCalificaciones(List(10,9,9.5,6.7,10),1)
+transformarCalificaciones(List(10,9,9.5,6.7,10),2)
+transformarCalificaciones(List(10,9,9.5,6.7,10),3)
 
 //Ejercicio3
 //Funcion anonima
