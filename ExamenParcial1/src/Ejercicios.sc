@@ -5,7 +5,7 @@ def myMethod(datos: List[Double]): Double = {
   math.sqrt(valor)
 }
 
-myMethod(List(1,2,3,4,5))
+myMethod(List(1,2.8,3,4,5))
 
 
 //Ejercicio2
